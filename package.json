@@ -1,7 +1,15 @@
 {
   "name": "slidev-theme-lecture-slides",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "No nonsense lecture slides",
+  "license": "MIT",
+  "author": {
+    "name": "James Ansley"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/James-Ansley/slidev-theme-lecture-slides"
+  },
   "keywords": [
     "slidev-theme",
     "slidev"

@@ -8,23 +8,23 @@ A no-nonsense lecture slide theme for [Slidev](https://github.com/slidevjs/slide
 
 ### Cover Layout
 
-![title slide](./.github/assets/title.png?raw=true)
+![title slide](assets/title.png?raw=true)
 
 ### General Styling
 
-![overview slide](./.github/assets/overview.png?raw=true)
+![overview slide](assets/overview.png?raw=true)
 
 ### Two-Col layout
 
-![two-col slide](./.github/assets/two-col.png?raw=true)
+![two-col slide](assets/two-col.png?raw=true)
 
 ### Diagram CSS class
 
 Use the `diagram` class to make diagram colours invert in dark mode
 
 <div style="display: flex">
-<img src=".github/assets/diagram_light.png" width="50%"/>
-<img src=".github/assets/diagram_dark.png" width="50%"/>
+<img src="assets/diagram_light.png" width="49%"/>
+<img src="assets/diagram_dark.png" width="49%"/>
 </div>
 
 ## Install
