@@ -1,0 +1,99 @@
+:root {
+  // default theme color
+  // can be overrided by uses `themeConfig` option
+  --slidev-theme-primary: #5d8392;
+}
+
+html {
+  // Responsive slides? I don't think so.
+  // This fixes layout issues on browsers with different font sizes causing cutoff.
+  font-size: 16px !important;
+}
+
+.slidev-layout {
+  font-variant-ligatures: none;
+  text-align: justify;
+
+  h1, h2, h3, h4, p, div {
+    @apply select-text;
+  }
+
+  h1 {
+    @apply font-bold;
+  }
+
+  h1 + h2 {
+    @apply -mt-4;
+  }
+
+  h2 {
+    @apply text-2xl font-bold;
+  }
+
+  h3 {
+    @apply text-xl font-bold;
+  }
+
+  p {
+    @apply mt-4 mb-4;
+  }
+
+  p:first-child {
+    @apply mt-0 mb-4;
+  }
+
+  p:last-child {
+    @apply mb-0;
+  }
+
+  p + h2, ul + h2, table + h2 {
+    @apply mt-10;
+  }
+
+  blockquote > * {
+    @apply my-0;
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  li > ul,
+  li > ol,
+  ul:first-child,
+  ol:first-child {
+    margin-top: 0;
+  }
+
+  :not(pre) > code:before,
+  :not(pre) > code:after {
+    content: '\2005';
+  }
+
+  .katex-display {
+    @apply my-0
+  }
+}
+
+.slidev-layout.intro,
+.slidev-layout.cover {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl font-700 leading-20;
+  }
+
+  h1 + p {
+    @apply font-700 -mt-4 text-2xl;
+  }
+}
+
+:not(li) > ul > li:not(li:first-child),
+:not(li) > ol > li:not(li:first-child) {
+  margin-top: 1rem;
+}
+
+// Inverts diagram colours in dark mode
+html.dark .diagram {
+  filter: invert(0.92) !important;
+}

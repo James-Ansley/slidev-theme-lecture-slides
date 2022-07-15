@@ -1,0 +1,39 @@
+{
+  "name": "slidev-theme-lecture-slides",
+  "version": "0.0.0",
+  "description": "No nonsense lecture slides",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.3"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.34.3",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.3",
+    "theme-vitesse": "^0.4.10"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.34.3"
+  },
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Helvetica",
+        "mono": "Fira Code"
+      },
+      "hightlighter": "prism"
+    }
+  }
+}
