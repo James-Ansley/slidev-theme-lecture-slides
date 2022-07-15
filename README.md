@@ -37,17 +37,3 @@ theme: <b>lecture-slides</b>
 ---</code></pre>
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
-
-## Layouts
-
-This theme provides the following layouts:
-
-- **two-col**: for two columns of content with a title and footer
-
-## Contributing
-
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
-- Edit the `example.md` and style to see the changes
-- `npm run export` to generate the preview PDF
-- `npm run screenshot` to generate the preview PNG
