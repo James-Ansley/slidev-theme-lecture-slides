@@ -14,6 +14,7 @@ layout: cover
 A no-nonsense theme perfect for lecture slides
 
 - Overrides the default layout to allow for optional two columns and a footer
+- Includes page numbers for default-layout pages
 - Adds a `diagram` css class that inverts diagram colours in dark mode
 - Has modified list spacing for clear lecture slides
   - Top-level bullets are spaced apart to get the main concepts across

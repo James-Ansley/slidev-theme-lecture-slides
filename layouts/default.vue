@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import PageNumber from "../components/PageNumber.vue";
+
 const props = defineProps({
   class: {
     type: String,
@@ -19,6 +21,7 @@ const props = defineProps({
     </div>
     <div class="bottom" :class="props.class">
       <slot name="bottom"/>
+      <PageNumber/>
     </div>
   </div>
 </template>
