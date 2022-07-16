@@ -70,6 +70,11 @@ html {
     content: '\2005';
   }
 
+  pre {
+    font-size: 0.95rem !important;
+    line-height: 1.25rem !important;
+  }
+
   .katex-display {
     @apply my-0
   }
