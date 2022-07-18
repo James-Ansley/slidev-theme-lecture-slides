@@ -1,4 +1,4 @@
-# SliDev Lecture Slides
+# Slidev Lecture Slides
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-lecture-slides?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-lecture-slides)
 

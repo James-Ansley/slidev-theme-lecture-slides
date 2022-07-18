@@ -75,6 +75,18 @@ html {
   .katex-display {
     @apply my-0
   }
+
+  th {
+    @apply font-bold;
+  }
+
+  td {
+    @apply py-1.5;
+  }
+
+  li {
+    line-height: 1.6em;
+  }
 }
 
 .slidev-layout.intro,
