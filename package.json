@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-lecture-slides",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "No nonsense lecture slides",
   "license": "MIT",
   "author": {
@@ -25,13 +25,13 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@slidev/types": "^0.34.3",
-    "codemirror-theme-vars": "^0.1.1",
-    "prism-theme-vars": "^0.2.3",
-    "theme-vitesse": "^0.4.10"
+    "@slidev/types": "^0.42.5",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4",
+    "theme-vitesse": "^0.7.2"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.34.3"
+    "@slidev/cli": "^0.42.5"
   },
   "slidev": {
     "colorSchema": "both",

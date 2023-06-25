@@ -67,7 +67,7 @@ pre[class*='language-'] {
 
 :not(pre) > code:before,
 :not(pre) > code:after {
-    content: '`';
+    content: '\2005';
     opacity: 0.50;
 }
 
