@@ -55,3 +55,20 @@ reading.
 
 This doesn't work for all images:
 <img alt="a cute cat" src="/cat.png" class="diagram m-auto w-50 my-0"/>
+
+---
+pageNumber: false
+---
+
+# Page Numbers
+
+Providing the metadata field `pageNumber: false` will disable Page numbers for a
+page.
+
+A `<PageNumber/>` component has been provided that will add page numbers to the
+bottom right of pages. Currently, page numbers are only included on default
+layouts. If you want page numbers on a non-default layout, just include
+the `<PageNumber/>` component somewhere on the slide you want to add page
+numbers to.
+
+Page numbers are 0-indexed.

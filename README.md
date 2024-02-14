@@ -30,6 +30,9 @@ Use the `diagram` class to make diagram colours invert in dark mode
 
 ## Components
 
+Providing the metadata field `pageNumber: false` will disable Page numbers for a
+page.
+
 A `<PageNumber/>` component has been provided that will add page numbers to the
 bottom right of pages. Currently, page numbers are only included on default
 layouts. If you want page numbers on a non-default layout, just include

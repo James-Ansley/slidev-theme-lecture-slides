@@ -5,6 +5,10 @@ const props = defineProps({
   class: {
     type: String,
   },
+  pageNumber: {
+    type: Boolean,
+    default: true,
+  },
 })
 </script>
 
@@ -21,7 +25,7 @@ const props = defineProps({
     </div>
     <div class="bottom" :class="props.class">
       <slot name="bottom"/>
-      <PageNumber/>
+      <PageNumber v-if="props.pageNumber"/>
     </div>
   </div>
 </template>
