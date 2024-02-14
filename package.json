@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/James-Ansley/slidev-theme-lecture-slides"
+    "url": "https://github.com/James-Ansley/slidev-theme-lecture-slides.git"
   },
   "keywords": [
     "slidev-theme",
