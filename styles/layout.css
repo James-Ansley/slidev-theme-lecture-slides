@@ -80,10 +80,6 @@ html {
   }
 }
 
-/*.slidev-layout {*/
-/*    @apply text-2xl;*/
-/*}*/
-
 .slidev-layout.intro,
 .slidev-layout.cover {
   @apply h-full grid;
@@ -99,7 +95,7 @@ html {
 
 :not(li) > ul > li:not(li:first-child),
 :not(li) > ol > li:not(li:first-child) {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 html.dark .diagram {
