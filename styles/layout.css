@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 16px !important;
+  font-size: 18px !important;
 }
 
 .slidev-layout {
@@ -79,6 +79,10 @@ html {
     line-height: 1.6em;
   }
 }
+
+/*.slidev-layout {*/
+/*    @apply text-2xl;*/
+/*}*/
 
 .slidev-layout.intro,
 .slidev-layout.cover {

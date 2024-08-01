@@ -25,8 +25,8 @@ const props = defineProps({
     </div>
     <div class="bottom" :class="props.class">
       <slot name="bottom"/>
-      <PageNumber v-if="props.pageNumber"/>
     </div>
+    <PageNumber v-if="props.pageNumber"/>
   </div>
 </template>
 
